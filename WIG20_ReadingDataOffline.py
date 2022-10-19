@@ -55,6 +55,7 @@ while turn_on == True:
         choice = 0
         readinglineDataWIG20()
     if choice == 2:
+        choice = 0
         readingspecificDataWIG20()
     if choice == 3:
         turn_on = False
