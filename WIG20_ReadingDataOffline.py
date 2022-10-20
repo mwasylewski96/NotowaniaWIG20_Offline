@@ -4,7 +4,7 @@ def readinglineDataWIG20():
         while odczytywanie == True:
             f.seek(0)
             print("Ktora linie chcesz odczytać?")
-            print("Od 19.10.2022 to linia nr 3, z wczesniejszych dni sa dalej")
+            print("Od 20.10.2022 to linia nr 3, z wczesniejszych dni sa dalej")
 
             a = int(input())
             i = 1
@@ -46,7 +46,7 @@ def readingspecificDataWIG20():
 
 turn_on = True
 while turn_on == True:
-    print("Notowania WIG20 od 19.09.2022 do 19.10.2022")
+    print("Notowania WIG20 od 19.09.2022 do 20.10.2022")
     print("Notowania prowadzone od poniedzialku do piatku")
     print("Proszę o wybranie opcji z poniższego menu","1 - Odczyt data + notowania z otwarcia i zamknięcia", "2 - Odczyt konkretnej wartosci z dnia", sep="\n")
     print("3 - Zakończenie działania programu")
